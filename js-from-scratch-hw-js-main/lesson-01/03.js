@@ -5,4 +5,17 @@
 */
 
 // your code
-let sum
+let sum=0;
+let ot=1;
+const do_=20;
+while (ot<do_){
+  console.log('ot ' +ot);
+  
+  if (ot%2 === 1){
+      sum=sum+ ot;
+      console.log('sum ' + sum);
+      
+  }
+  ot++;
+}
+console.log('sum itog' + sum);

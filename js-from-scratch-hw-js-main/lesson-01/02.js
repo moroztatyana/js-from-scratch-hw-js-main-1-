@@ -6,4 +6,17 @@
 */
 
 // your code
-let factorial
+let factorial;
+const do_ = 10;
+let ot=1;
+let summ =1;
+
+while (ot<do_) {
+  ot++;
+  console.log('Значение числа ' + ot );
+  summ=summ*ot;
+  console.log('Факториал '+' равен ' +summ);
+}
+factorial=summ;
+console.log('Факториал числа итого ' + do_ +' равен ' +factorial);
+
