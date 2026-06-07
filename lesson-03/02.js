@@ -1,4 +1,8 @@
 // Разработайте функцию isEven, которая определяет, чётное ли число.
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
-function isEven() {}
+function isEven(chislo) {
+   return chislo%2 === 0
+  }
+
+console.log(isEven(5));
